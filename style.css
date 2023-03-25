@@ -1,0 +1,79 @@
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --red: #F94144;
+    --orange: #F8961E;
+    --yellow: #F9C74F;
+    --deep-purple: #7C3AED;
+    --rich-lavender: #A55EEA;
+    --bright-lilac: #C084FC;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: var(--deep-purple);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    padding-bottom: 20%;
+}
+
+p {
+    color: var(--white);
+    font-size: 10vw;
+}
+
+#clock {
+    width: 100%;
+    text-align: center;
+
+}
+
+#progressBarContainer {
+    transform: rotate(180deg);
+}
+
+.buttonSection {
+    width: 100%;
+    padding-top: 3rem;
+}
+
+.roundButton {
+    border-radius: 50%;
+    background-color: var(--rich-lavender);
+    box-shadow: 10px 10px 25px 0 var(--black);
+    border: 0;
+    width: 5rem;
+    height: 5rem;
+    font-size: 1rem;
+    color: var(--white);
+}
+
+.button1 {
+    float: left;
+    width: 49%;
+}
+
+.button2 {
+    float: right;
+    width: 49%;
+}
+
+.selector {
+    background-color: var(--white);
+    color: var(--deep-purple);
+    padding: .8rem 1.4rem .9rem .8rem;
+    width: 30%;
+    border-radius: .5rem;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-size: 1rem;
+    text-align: center;
+}
+
